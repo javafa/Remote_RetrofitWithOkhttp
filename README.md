@@ -3,6 +3,8 @@
 /**
      * UnCertificated 허용
      */
+     
+     
     public static OkHttpClient.Builder configureClient(final OkHttpClient.Builder builder) {
 
         X509TrustManager x509TrustManager = new X509TrustManager() {
